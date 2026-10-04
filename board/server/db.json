@@ -1,0 +1,110 @@
+{
+  "nextNumber": 5,
+  "labels": [
+    {
+      "id": "bug",
+      "name": "bug",
+      "color": "#C2410C"
+    },
+    {
+      "id": "feature",
+      "name": "feature",
+      "color": "#2563EB"
+    },
+    {
+      "id": "design",
+      "name": "design",
+      "color": "#BE185D"
+    },
+    {
+      "id": "docs",
+      "name": "docs",
+      "color": "#7C3AED"
+    },
+    {
+      "id": "chore",
+      "name": "chore",
+      "color": "#475569"
+    }
+  ],
+  "columns": [
+    {
+      "id": "e0992243-3845-4cbf-b72e-e9b8107ef762",
+      "name": "Todo",
+      "position": 1024
+    },
+    {
+      "id": "3af10c84-ac3d-4da5-9353-d562857f9243",
+      "name": "In progress",
+      "position": 2048
+    },
+    {
+      "id": "32d6558f-2dff-48ef-9716-e28cb459e938",
+      "name": "Done",
+      "position": 3072
+    }
+  ],
+  "issues": [
+    {
+      "id": "dff5f7e8-90d4-48f9-8efd-1597c36272a1",
+      "number": 1,
+      "title": "Set up CI pipeline",
+      "body": "",
+      "columnId": "e0992243-3845-4cbf-b72e-e9b8107ef762",
+      "position": 1024,
+      "labels": [
+        "chore"
+      ],
+      "assignee": "minhaj",
+      "priority": "P2",
+      "createdAt": "2026-10-04T05:35:26.134Z",
+      "updatedAt": "2026-10-04T05:35:26.134Z"
+    },
+    {
+      "id": "a272b8d6-f16c-4cc3-8d58-3551ca15a34a",
+      "number": 2,
+      "title": "Login page crashes on empty password",
+      "body": "Steps:\n1. Open /login\n2. Submit with empty password",
+      "columnId": "e0992243-3845-4cbf-b72e-e9b8107ef762",
+      "position": 2048,
+      "labels": [
+        "bug"
+      ],
+      "assignee": "",
+      "priority": "P1",
+      "createdAt": "2026-10-04T05:35:26.134Z",
+      "updatedAt": "2026-10-04T05:35:26.134Z"
+    },
+    {
+      "id": "f55425b9-b744-4fd5-99da-b6971dea55b9",
+      "number": 3,
+      "title": "Board drag and drop",
+      "body": "",
+      "columnId": "3af10c84-ac3d-4da5-9353-d562857f9243",
+      "position": 1024,
+      "labels": [
+        "feature",
+        "design"
+      ],
+      "assignee": "minhaj",
+      "priority": "P1",
+      "createdAt": "2026-10-04T05:35:26.134Z",
+      "updatedAt": "2026-10-04T05:35:26.134Z"
+    },
+    {
+      "id": "7cce3462-0f5d-4a3e-a060-d75bd80b419d",
+      "number": 4,
+      "title": "Write API docs",
+      "body": "",
+      "columnId": "32d6558f-2dff-48ef-9716-e28cb459e938",
+      "position": 1024,
+      "labels": [
+        "docs"
+      ],
+      "assignee": "",
+      "priority": "P3",
+      "createdAt": "2026-10-04T05:35:26.134Z",
+      "updatedAt": "2026-10-04T05:35:26.134Z"
+    }
+  ]
+}

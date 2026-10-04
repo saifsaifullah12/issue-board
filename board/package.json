@@ -1,0 +1,14 @@
+{
+  "name": "issue-board",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n api,web -c cyan,magenta \"npm --prefix server run dev\" \"npm --prefix client run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "issue-board": "file:"
+  }
+}
